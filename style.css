@@ -3,7 +3,7 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  background: url(header.jpg) no-repeat center center fixed; 
+  background: url(cover.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,7 +18,9 @@ hr{
 
 h1{
   font-size: 3rem;
-  color: #FFB000;
+  /* color: #FFB000; */
+  -webkit-text-stroke: 0.2px white;
+  color: #34a3a3;
 }
 
 .buffer{
