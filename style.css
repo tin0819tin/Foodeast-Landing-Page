@@ -17,10 +17,23 @@ hr{
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 50px;
   /* color: #FFB000; */
-  -webkit-text-stroke: 0.2px white;
+  /* -webkit-text-stroke: 0.01px white; */
   color: #34a3a3;
+}
+
+.outlined {
+  color: #FFB000;
+  text-shadow:
+    -1px -1px 0 #FFF,
+     0   -1px 0 #fff,
+     1px -1px 0 #fff,
+     1px  0   0 #fff,
+     1px  1px 0 #fff,
+     0    1px 0 #fff,
+    -1px  1px 0 #fff,
+    -1px  0   0 #fff;
 }
 
 .buffer{
